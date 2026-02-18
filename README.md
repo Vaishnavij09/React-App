@@ -1,18 +1,44 @@
-# React + Vite
+# React Custom Hook - useFetch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Description
 
-Currently, two official plugins are available:
+This project demonstrates the implementation of a custom React hook named `useFetch` to simplify API data fetching.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The `useFetch` hook accepts a URL as a parameter and handles:
 
-## React Compiler
+- Fetching data from an API
+- Managing loading state
+- Handling errors
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+The hook returns:
+- `data`
+- `loading`
+- `error`
 
-Note: This will impact Vite dev & build performances.
+A sample component uses this custom hook to fetch and display data from a dummy API.
 
-## Expanding the ESLint configuration
+This project highlights how custom hooks improve code reusability and maintainability in React applications.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Tech Stack
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+---
+
+## How to Run Locally
+
+1. Clone the repository
+2. Run `npm install`
+3. Run `npm run dev`
+4. Open http://localhost:5173 in your browser
+
+---
+
+## Deployed Link
+
+(Add your deployed Vercel link here)
